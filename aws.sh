@@ -70,7 +70,8 @@ p3_8xlarge() {
     --mem=244G \
     --nodes=1 \
     --ntasks=1 \
-    --cpus-per-task=16
+    --cpus-per-task=16 \
+    --constraint=cpu_intel_gold_6142    
 }
 
 
@@ -82,7 +83,8 @@ p3_8xlarge() {
 #    --mem=488G \
 #    --nodes=1 \
 #    --ntasks=1 \
-#    --cpus-per-task=32
+#    --cpus-per-task=32 \
+#    --constraint=cpu_intel_gold_6142
 # }
 
 # N.B. This instance is not currently available on Ibex.
@@ -95,5 +97,6 @@ p3_8xlarge() {
 #     --mem=768G \
 #     --nodes=1 \
 #     --ntasks=1 \
-#     --cpus-per-task=48
+#     --cpus-per-task=48 \
+#     --constraint=cpu_intel_gold_6142
 # }
